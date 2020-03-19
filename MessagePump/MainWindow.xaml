@@ -1,0 +1,10 @@
+﻿<Window x:Class="WpfAwait.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Asnc Lambda" Height="220" Width="300">
+    <StackPanel>
+        <Button Name="btnProcess" Width="100" Click="btnProcess_Click" Margin="10,15,10,10" HorizontalAlignment="Right">Process</Button>
+        <Button Name="btnCancel" Width="100" Click="btnCancel_Click" Margin="10,0" HorizontalAlignment="Right">Cancel</Button>
+        <ProgressBar Name="progressBar" Height="20" Width="200" Margin="10" HorizontalAlignment="Right"></ProgressBar>
+    </StackPanel>
+</Window>
